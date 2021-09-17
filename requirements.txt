@@ -15,7 +15,6 @@ sqlparse==0.4.2
 threadpoolctl==2.2.0
 typing-extensions==3.10.0.2
 
-
 certifi==2020.6.20
 chardet==3.0.4
 click==7.1.2
@@ -24,7 +23,6 @@ itsdangerous==1.1.0
 jsonify==0.5
 MarkupSafe==1.1.1
 requests==2.24.0
-threadpoolctl==2.1.0
 urllib3==1.25.9
 Werkzeug==1.0.1
 wincertstore==0.2
