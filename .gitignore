@@ -1,0 +1,10 @@
+*.vscode
+.vscode
+.spyproject
+.ipynb_checkpoints
+.tmp.driveupload
+.tmp.drivedownload
+.ipynb_checkpoints
+*.log
+*.cpp
+ignore/
