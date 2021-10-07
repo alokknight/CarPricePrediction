@@ -105,8 +105,8 @@ def carpriceprediction(request, format=None):
 
         #for json view
         #return JsonResponse({'predictions': predictions})
-
-        return render(request, 'indexcarpriceprediction.html',{'predictions': predictions})
+        prediction=round(predictions['prediction'],2)
+        return render(request, 'indexcarpriceprediction.html',{'prediction': prediction})
 
 
     else:

@@ -14,13 +14,13 @@
             <h1>CAR Price Predictive analysis</h1>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
-            <h3>What is the Showroom Price?(In lakhs)</h3>
+            <h3>Showroom Price?(In lakhs)</h3>
             <input id="second" name="Present_Price" required="required">
-            <h3>How Many Kilometers Drived?</h3>
+            <h3>Kilometers Drived?</h3>
             <input id="third" name="Kms_Driven" required="required">
-            <h3>How much owners previously had the car(0 or 1 or 3) ?</h3>
+            <h3>Past owners  count(0 or 1 or 3) ?</h3>
             <input id="fourth" name="Owner" required="required">
-            <h3>What Is the Fuel type?</h3>
+            <h3>Fuel type</h3>
             <select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
@@ -40,7 +40,7 @@
             <p>Calculate the Selling Price<P>
             <button id="sub" type="submit ">submit</button>
         </form>
-        <h3>{{predictions.prediction}} lakhs<h3>
+        <h3>{{prediction}} lakhs<h3>
         {% comment %} <br><h3>{{ error }}<h3>
         <br><h3>{{prediction}}<h3> {% endcomment %}
     </div>
