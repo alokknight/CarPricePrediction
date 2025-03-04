@@ -1,2 +1,2 @@
 # CarPricePrediction
-https://coderpapa.herokuapp.com/carprice
+https://alokknight.com/carprice
